@@ -93,5 +93,5 @@ require_once(ABSPATH . 'wp-settings.php');
  * Stop all auto updates to WordPress core and theme updates.
  */
 
-//define('AUTOMATIC_UPDATE_DISABLED', true);
-//define('DISALLOW_FILE_MODS', true);
+define('AUTOMATIC_UPDATE_DISABLED', true);
+define('DISALLOW_FILE_MODS', true);
