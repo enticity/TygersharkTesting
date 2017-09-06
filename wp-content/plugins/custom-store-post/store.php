@@ -33,7 +33,7 @@ function create_store() {
             'public' => true,
             'menu_position' => 15,
             'supports' => array( ''),
-            'taxonomies' => array( '' ),
+            'taxonomies' => array( 'title'),
             'menu_icon' => plugins_url( 'images/icon.png', __FILE__ ),
             'has_archive' => true
         )
