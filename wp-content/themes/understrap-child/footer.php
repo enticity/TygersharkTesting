@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row justify-content-center">
 			<div class="col-10">
 				
-				<img class="footer__logo" src="/wp-content/uploads/2017/09/cropped-Vector-Smart-Object.png" alt="Amps">
+				<img class="footer__logo" src="/wp-content/uploads/2017/09/amps.png" alt="Amps">
 
 				<div class="row">
 					<div class="col-3">
