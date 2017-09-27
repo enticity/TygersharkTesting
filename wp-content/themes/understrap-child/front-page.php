@@ -34,18 +34,18 @@ endwhile;
 
 <div id="hero" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
-		<?foreach($slides as $key => $slide): ?>
-			<li data-target="#hero" data-slide-to="<?=$key;?>" class="<? if ( $key == 0 ) { echo 'active'; } ?>"></li>
-		<?endforeach;?>
+		<?php foreach($slides as $key => $slide): ?>
+			<li data-target="#hero" data-slide-to="<?=$key;?>" class="<?php if ( $key == 0 ) { echo 'active'; } ?>"></li>
+		<?php endforeach;?>
 	</ol>
 	<div class="carousel-inner">
 
-		<?foreach($slides as $key => $slide):?>
-			<div class="carousel-item <? if ( $key == 0 ) { echo 'active'; } ?>">
+		<?php foreach($slides as $key => $slide):?>
+			<div class="carousel-item <?php if ( $key == 0 ) { echo 'active'; } ?>">
 				<img class="d-block w-100" src="<?=$slide['url'];?>" alt="Slide">
 				<div class="hero-caption carousel-caption d-none d-md-block"><?=$slide['content'];?></div>
 			</div>
-		<?endforeach;?>
+		<?php endforeach;?>
 
 	</div>
 
