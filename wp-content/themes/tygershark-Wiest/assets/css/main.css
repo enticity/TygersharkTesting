@@ -1,0 +1,226 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    font-family: 'Proxima Nova', sans-serif;
+    background-color: #FFF;
+    color: #403f3f;
+}
+
+section{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+h2{
+    color: #fff;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: normal;
+    }
+
+h2 span{
+    font-weight: bold;
+}
+
+.contact-us-btn{
+    margin-left: 100px;
+    padding: 10px 40px;
+    border: solid 1px #fff;
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.5);
+   -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+   box-shadow:         inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* base cmds */
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+
+/* HOME PAGE */
+
+
+/* Info Bar */
+.info-bar{
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    height: 60px;
+    text-align: center;
+}
+
+.info-bar div{
+    display: inline-block;
+    text-align: center;
+}
+
+.info-floats{
+    width: 90%;
+}
+
+.info-floats .info-telephone{
+    float: right;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.info-socialmedia i{
+    padding: 10px;
+}
+
+
+.login-btn{
+    float: right;
+    background-color: #ffcc00;
+    width: 10%;
+    height: inherit;
+}
+
+/* Main Nav */
+
+.main-nav{
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.34);
+}
+
+.main-nav li, .main-nav img{
+    display: inline-block;
+}
+
+
+.hero{
+    min-height: 100vh;
+    background-image: url(../images/Home/hero-slider/hp-slider-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ADV - CONSULTATION */
+.advantage-consultation{
+    min-height: 810px;
+}
+
+.amps-advantage{
+    display: inline-block;
+    width: 48%;   
+
+}
+
+.request-a-consultation{
+    display: inline-block;
+    background-image: url(../images/Home/request-a-consultation-div.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 52%;
+    min-height: inherit;
+}
+
+/* OFFER */
+.what-we-offer{
+    min-height: 600px;
+    background-image: url(../images/Home/what-we-offer-parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Jobs Just In */
+.jobs-just-in{
+    min-height: 875px;
+}
+
+/* Job Seeker */
+.job-seeker{
+    min-height: 738px;
+    background-image: url(../images/Home/job-seeker-div.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Employer */
+.employer{
+    min-height: 738px;
+    background-image: url(../images/Home/employer-div.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Our People */
+.our-people{
+    min-height: 600px;
+}
+
+/* having trouble */
+.having-trouble{
+    height: 300px;
+    background-image: url(../images/Home/having-trouble-parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 3px 3px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-map{
+    height: 600px;
+}
+
+.map{
+    position: relative;
+    margin-bottom: -50px;
+}
+
+.arrow-up {
+    position: relative;
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;  
+    border-bottom: 50px solid #fff;
+}
+
+.contact-info{
+    height: 600px;
+}
+
+
+/* FOOTER */
+footer{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+}
