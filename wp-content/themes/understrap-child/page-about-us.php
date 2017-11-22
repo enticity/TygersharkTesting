@@ -29,16 +29,15 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
     <div class="col-6 job-search section section--dark" style="background-image: url(/wp-content/uploads/2017/09/job-search.jpg);">
       <h3>Job <strong>Search</strong></h3>
       <hr>
-      <p>Search for jobs in your area.
-  AMPS adds new job listings on a regular basis so please check back if you can’t find exactly what you’re looking for.</p>
+      <p>Search for jobs in your area.<br /> AMPS adds new job listings on a regular basis so please check back if you can’t find exactly what you’re looking for.</p>
       <a href="#" class="button">Job Search</a>
     </div>
     <div class="col-6 having-trouble section section--dark" style="background-image: url(/wp-content/uploads/2017/09/need-help.jpg);">
-      <h3>Having <strong>Trouble</strong></h3>
+      <h3>Having <strong>Trouble?</strong></h3>
       <hr>
-      <p>Can’t find what you’re looking for? Having trouble searching for a job?
+      <p>Can’t find what you’re looking for?<br/> Having trouble searching for a job?<br/>
       Contact us to see if we can help you.</p>
-      <a href="#" class="button">Contact Us</a>
+      <a href="../contact-us" class="button">Contact Us</a>
     </div>
   </div>
 </div>
