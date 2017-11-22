@@ -105,7 +105,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 <div class="row">
 	<div class="col-6 section--light">
     <div class="row justify-content-center">
-        <div class="col-8 contact-us">
+        <div class="col-10 contact-us">
           <?php while ( have_posts() ) : the_post(); ?>
             <?php the_content(); ?>
           <?php endwhile; // end of the loop. ?>
