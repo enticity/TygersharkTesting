@@ -9,7 +9,8 @@
 
 
 <div class="page-hero" style="background-image: url('<?php echo get_the_post_thumbnail_url( $post->ID, 'full' ); ?>');"></div>
-	
+
+<!--
 <div class="container-fluid">
 
 	<div class="entry-content">
@@ -25,6 +26,7 @@
 		) );
 		?>
 
-	</div><!-- .entry-content -->
+	</div><!-- .entry-content 
 
 </div>
+-->

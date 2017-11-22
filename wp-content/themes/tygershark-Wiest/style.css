@@ -149,7 +149,7 @@ Main Nav
 
 .hero{
     min-height: 100vh;
-    background-image: url(../images/Home/hero-slider/hp-slider-1.jpg);
+    background-image: url(assets/images/Home/hero-slider/hp-slider-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +170,7 @@ Advantage / Consultation
 
 .request-a-consultation{
     display: inline-block;
-    background-image: url(../images/Home/request-a-consultation-div.png);
+    background-image: url(assets/images/Home/request-a-consultation-div.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 52%;
@@ -182,7 +182,7 @@ What We Offer
 ========================================================================== */
 .what-we-offer{
     min-height: 600px;
-    background-image: url(../images/Home/what-we-offer-parallax.jpg);
+    background-image: url(assets/images/Home/what-we-offer-parallax.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ Job Seeker
 ========================================================================== */
 .job-seeker{
     min-height: 738px;
-    background-image: url(../images/Home/job-seeker-div.jpg);
+    background-image: url(assets/images/Home/job-seeker-div.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +227,7 @@ Employer
 ========================================================================== */
 .employer{
     min-height: 738px;
-    background-image: url(../images/Home/employer-div.jpg);
+    background-image: url(assets/images/Home/employer-div.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +301,7 @@ Having Trouble
 ========================================================================== */
 .having-trouble{
     height: 250px;
-    background-image: url(../images/Home/having-trouble-parallax.jpg);
+    background-image: url(assets/images/Home/having-trouble-parallax.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
