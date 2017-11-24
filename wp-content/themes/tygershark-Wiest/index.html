@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kayla Wiest - Code submission for Tyger Shark</title>
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
 
     </head>
@@ -22,13 +22,13 @@
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                 </div>                
                 <div class="info-telephone">
-                       <p>Still trying to land that dream job? We can help. <a href="tel:+1-800-111-1234">1.800.111.1234</a></p>
+                    <p>Still trying to land that dream job? We can help. <a href="tel:+1-800-111-1234" class="color">1.800.111.1234</a></p>
                 </div>
                 </div>
              
                 <div class="login-btn">
                     <img src="assets/images/Home/lock-icon.png" alt="Lock icon" />
-                    <p>Login</p>
+                    <h4>Login</h4>
                 </div>
             </div>
 
@@ -36,43 +36,144 @@
         <!-- Hero -->
         <section class="hero">
             <div class="main-nav">
-                <img class="left-float" src="assets/images/Amps-logo.png" alt="Amps Industrial Staffing Solutions" />
-                <ul>
-                    <li>Job Seekers</li>
-                    <li>AMPS Training</li>
-                    <li>Job Search</li>
-                    <li>Employers</li>
-                    <li>About Us</li>
-                    <li>Contact US</li>
-                    <li><img src="assets/images/Home/search-icon.png" alt="Search" /></li>
-                </ul>
-            </div>            
+                <div class="info-floats">
+                    <img class="left-float" src="assets/images/Amps-logo.png" alt="Amps Industrial Staffing Solutions" />
+                    <ul>
+                        <li><a href="#" title="Job Seekers">Job Seekers</a></li>
+                        <li><a href="#" title="AMPS Training">AMPS Training</a></li>
+                        <li><a href="#" title="Job Search">Job Search</a></li>
+                        <li><a href="#" title="Employers">Employers</a></li>
+                        <li><a href="#" title="About Us">About Us</a></li>
+                        <li><a href="#" title="Contact US">Contact US</a></li>
+                        <li><a href="#" title="Search"><img src="assets/images/Home/search-icon.png" alt="Search" /></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="hero-caption">
+                <div>
+                    <h1><strong>You</strong> have the <Strong>Skills</Strong>, <strong>We</strong> have the <strong>Work</strong></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmon tempor incididunt ut labore et dolore magna aliqua. Ut enima ac minim veniam, quis nostrud exercitation.</p>
+                    <a href="#" class="cta-btn">View Available positions</a>
+                </div>
+            </div>           
         </section>
         
         <!-- Advantage / Consultation -->        
         <section class="advantage-consultation">
-            <div class="amps-advantage"></div>
+            <div class="amps-advantage">
+                <div class="advantage-container flex">
+                    <span>
+                        <h2>The AMPS <strong>Advantage</strong></h2>
+                        <p><strong>Still trying to land that dream job? Can't decide exactly what you want to do for a living? Too busy for a full-time career? at AMPS, we can help.</strong></p>
+                        <p>At Amps Staffing Services, we do much more than simply provide jobs for qualified tradesmen. We provide career opportunities within the trade industy along with the flexibility to match virtually any lifestyle.</p>
+                        <p id="btn-spacer" >AMPS has the connections and resoucing to help you achieve your goals. Our unique skills based assessment and job opportunity matching tools assist us in providing you with the right job opportunities that are matched to your abilities and interests.</p>
+                        <a href="#" class="cta-btn3">Find out more</a>
+                    </span>
+                </div>
+            </div>
             <div class="request-a-consultation right-float">
-            </div>                        
+                <div class="consultation-container flex">
+                    <span>
+                    <h2>Request a <strong>consultation</strong></h2>
+                    <p>We are your workforce integrators and we handle everything from recruitment to payroll. Get in touch with us today!</p>
+                    <form> 
+                      <div>
+                        <input class="form-full" type="text" id="name" name="name" placeholder="Name"/>
+                        <input class="form-half" type="email" id="mail" name="email" placeholder="Email Address" />
+                        <input class="form-half right-float" id="number" name="number" placeholder="Phone Number" />
+                        <textarea class="form-full" id="message" name="message" placeholder="Message"></textarea>
+                        <a href="#" class="cta-btn2 right-float">Submit</a>
+                      </div>                    
+                    </form>
+                    </span>  
+                </div>                       
+            </div>   
+                
         </section>
         
         <!-- What We Offer -->
-        <section class="what-we-offer">
-        
+        <section class="what-we-offer flex">
+            <div>
+                <h2>What we <strong>Offer</strong></h2>
+                <p>Lorem ipsum dolor sit amet, consectertur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+
+                <hr>
+                <div class="offers">
+                    <ul>
+                        <li>Advertisment of open positions</li>
+                        <li>Recruitment</li>
+                        <li>Structured interview process</li>
+                        <li>Background checks</li>
+                        <li>Drug test</li>
+                    </ul>
+                    <ul>
+                        <li>New employee orientation and health and safety training (OSHA)</li>
+                        <li>Payroll</li>
+                        <li>Health Insurance</li>
+                        <li>Dental and vision</li>
+                    </ul>
+                    <ul>
+                        <li>410K</li>
+                        <li>Healthcare reform act compliance</li>
+                        <li>Health and safety compliance</li>
+                        <li>Dedicated on-site representative for large projects</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         
         <!-- Jobs Just In -->
-        <section class="jobs-just-in">
-        
+        <section class="jobs-just-in flex">
+            <div>
+                <div class="flex">
+                    <span>
+                        <h2>Jobs <strong>Just In</strong></h2>
+                        <p class="left-float">Lorem ipsum dolor sit amet, consectertur adipisicing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqusa. Ut emined minim.</p>
+                        <a href="#" class="cta-btn3-small">See all opportunities</a>
+                    </span>
+                </div>
+                <div class="jobs-container flex">
+                    <div class="job-slide flex">
+                        <span class="date-marker">January 17, 2017</span>
+                        <span>
+                            <h3>Conveyor Installer</h3>
+                            <h4>Las Vegas, Nevada</h4>
+                            <p id="btn-spacer">We are currently seeking Conveyor Installer. The ideal Conveyor Installer will be a self-motivated and goal oriented individual who combines a strong work ethic with a positive attitude...</p>
+                            <a href="#" class="cta-btn3-small">View Job</a>
+                        </span>
+                    </div>
+
+                    <div class="job-slide flex">
+                        <span class="date-marker">January 17, 2017</span>
+                        <span>
+                            <h3>Conveyor Installer</h3>
+                            <h4>Las Vegas, Nevada</h4>
+                            <p id="btn-spacer">We are currently seeking Conveyor Installer. The ideal Conveyor Installer will be a self-motivated and goal oriented individual who combines a strong work ethic with a positive attitude...</p>
+                            <a href="#" class="cta-btn3-small">View Job</a>
+                        </span>
+                    </div>
+
+                     <div class="job-slide flex">
+                        <span class="date-marker">January 17, 2017</span>
+                        <span>
+                            <h3>Conveyor Installer</h3>
+                            <h4>Las Vegas, Nevada</h4>
+                            <p id="btn-spacer">We are currently seeking Conveyor Installer. The ideal Conveyor Installer will be a self-motivated and goal oriented individual who combines a strong work ethic with a positive attitude...</p>
+                            <a href="#" class="cta-btn3-small">View Job</a>
+                        </span>
+                    </div>               
+                </div>
+            </div>            
         </section>
         
         <!-- Job Seeker -->
         <section class="job-seeker">
             <div class="job-seeker-container">
                 <div>
-                    <h2>Are You A <span>Job Seeker?</span></h2>
+                    <h2>Are You A <strong>Job Seeker?</strong></h2>
                     <p>We'll place you on assignments where you can succeed, and you'll have the chance to gain valuable job experience with nationally respected companies of all sizes and locales. Amps Staffing offers great job opportunities with sound companies, a comprehensive benefits package, flexible scheduling and skills training. We provide quality opportunities for your future...and your life.</p>
-                    <a href="#" class="cta-btn">Apply now</a>
+                    <a href="#" class="cta-btn2">Apply now</a>
                 </div>
             </div> 
         </section>
@@ -81,7 +182,7 @@
         <section class="employer">
             <div class="employer-container">
                 <div>
-                    <h2>Are You An <span>Employer?</span></h2>
+                    <h2>Are You An <strong>Employer?</strong></h2>
                     <p>Finding qualified and reliable tradesmen, laborers, journeyman, foreman and supervisors is clearly one of the biggest challenges facing nearly every contractor and employer in North America. Let's face it; you CANNOT continue to do the same things that you've always done. As the demand for a quality workforce continues to increase, a basic newspaper ad or a sign on the back of your trucks simply isn't effective anymore.</p>
                     <a href="#" class="cta-btn2">Find out more</a>
                 </div>
@@ -91,7 +192,7 @@
         <!-- Our People -->
         <section class="our-people">
             <div class="container">
-                <h2>Our <span>People</span></h2>
+                <h2>Our <strong>People</strong></h2>
                 <!-- Our People Text Slider -->
                 <div id="carousel">
                     <!-- Arrows -->
@@ -125,7 +226,7 @@
         <!-- Having Trouble -->
         <section class="having-trouble">
             <div>
-                <h2>Having <span>Trouble?</span></h2>
+                <h2>Having <strong>Trouble?</strong></h2>
                 <p>Can't find what you're looking for? Having trouble searching for a job? Contact us to see if we can help you. <a href="#" class="cta-btn2 shadow">Contact Us</a></p>
             </div>
         </section>
@@ -143,7 +244,7 @@
                 <div class="contact-info-amps">
                     <img src="assets/images/Amps-logo.png" alt="AMPS Industrial Staffing Solutions" />       
                     <ul class="fa-ul">
-                        <li><span>AMPS - Corporate Office</span></li>
+                        <li><strong>AMPS - Corporate Office</strong></li>
                         <li><i class="fa-li fa fa-map-marker" aria-hidden="true"></i> 3111 Bellbrook Drive</li>
                         <li>Memphis, TN 38116 USA</li>
                     </ul>                
@@ -153,7 +254,7 @@
                     </ul>
                 </div>
                 <div class="contact-info-job-seekers">
-                    <h4>Job <span>Seekers</span></h4>
+                    <h4>Job <strong>Seekers</strong></h4>
                     <ul>
                         <li><a href="#">AMPS Advantage</a></li>
                         <li><a href="#">Train With AMPS</a></li>
@@ -163,7 +264,7 @@
                     </ul>
                 </div>            
                 <div class="contact-info-employers">
-                    <h4>The <span>Employers</span></h4>
+                    <h4>The <strong>Employers</strong></h4>
                     <ul>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">AMPS For Employers</a></li>
@@ -173,17 +274,17 @@
                     </ul>
                 </div>            
                 <div class="contact-info-socialfeed">
-                    <h4>Social <span>Feed</span></h4>
+                    <h4>Social <strong>Feed</strong></h4>
                     <ul>
                         <li>
                             <img src="assets/images/socialfeed-icon.png" alt="AMPS social feed icon" />
-                            <p><span>AMPS</span></p>
+                            <p><strong>AMPS</strong></p>
                             <p>January 19</p>
                             <p>Are you a millwright with experience installing conveyor?? AMPS has immediate...</p>
                         </li>
                         <li>
                             <img src="assets/images/socialfeed-icon.png" alt="AMPS social feed icon" />
-                            <p><span>AMPS</span></p>
+                            <p><strong>AMPS</strong></p>
                             <p>January 19</p>
                             <p>*************HOT JOBS*************</p>
                             <p>Vice President of Mechanical Installations...</p>

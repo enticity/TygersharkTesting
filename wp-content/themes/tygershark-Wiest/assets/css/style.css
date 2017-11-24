@@ -1,0 +1,780 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    font-family: 'Proxima Nova', sans-serif;
+    background-color: #FFF;
+    color: #403f3f;
+}
+
+section{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: #403f3f;
+}
+
+p{
+    line-height: 30px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+h1{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+}
+
+h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: normal;
+    }
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+h4{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+
+.color{
+    color: #ffcc00;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+*Base Commands
+*/
+
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+
+/* ==========================================================================
+Call to Action Button
+========================================================================== */
+.cta-btn{
+    padding: 20px;
+    background-color: #ffcc00;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.cta-btn2{
+    padding: 20px;
+    border: solid 1px #fff;
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.cta-btn2:hover{
+    background-color: rgba(255,255,255,1);
+    color: #403f3f;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+
+.cta-btn3{
+    margin-bottom: 40px;
+    padding: 20px;
+    border: solid 2px #403f3f;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.cta-btn3:hover{
+    color: #fff;
+    background-color: #403f3f;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+
+.cta-btn3-small{
+    margin-bottom: 40px;
+    padding: 10px;
+    border: solid 2px #403f3f;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.cta-btn3-small:hover{
+    color: #fff;
+    background-color: #403f3f;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+
+
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.3);
+   -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+   box-shadow:         inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+/* ==========================================================================
+Info Bar
+========================================================================== */
+
+.info-bar{
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    height: 40px;
+    text-align: center;
+}
+
+.info-bar div{
+    display: inline-block;
+    text-align: center;
+}
+
+.info-floats{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-floats .info-telephone{
+    float: right;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.info-socialmedia i{
+    padding: 10px;
+}
+
+
+.login-btn{
+    float: right;
+    background-color: #ffcc00;
+    width: 10%;
+    height: inherit;
+}
+
+.login-btn h4{
+    display: inline-block;
+    color: #403f3f;
+    font-weight: bold;
+    padding-top: 8px;
+    
+}
+
+/* ==========================================================================
+Main Nav
+========================================================================== */
+
+.main-nav{
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.main-nav li, .main-nav img{
+    display: inline-block;
+}
+
+.main-nav li a{
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 3px 3px rgba(0,0,0,0.3); 
+    font-weight: 500;
+    padding-left: 5rem;
+    padding-right: 0;    
+}
+
+.main-nav li a:hover{
+    color: #D8D6D7;
+}
+
+.main-nav li a:focus{
+    color: #ffcc00;
+}
+
+/* ==========================================================================
+Hero
+========================================================================== */
+
+.hero{
+    min-height: 100vh;
+    background-image: url(../images/Home/hero-slider/hp-slider-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-caption{
+    max-width: 850px;
+    height: 100vh;
+    margin-top: -150px; /* main-nav size */
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-caption p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* ==========================================================================
+Advantage / Consultation
+========================================================================== */
+.advantage-consultation{
+    min-height: 810px;
+}
+
+.amps-advantage{
+    display: inline-block;
+    width: 48%;
+    min-height: inherit
+}
+
+.advantage-container{
+    width: 70%;
+    min-height: inherit;
+    margin-top: -70px;
+}
+
+.advantage-container p{
+    margin: 20px 0;
+}
+
+#btn-spacer{
+    margin-bottom: 40px;
+}
+
+.request-a-consultation{
+    display: inline-block;
+    background-image: url(../images/Home/request-a-consultation-div.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 52%;
+    min-height: inherit;
+}
+
+.consultation-container{
+    width: 70%;
+    min-height: inherit;
+    color: #fff;
+}
+
+.form-full{
+    width: 100%;
+}
+.form-half{
+    width: 47.5%;
+}
+
+input, textarea{
+    padding: 10px 0;
+    margin: 10px 0;
+    border: solid 1px #fff;
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+textarea{
+    min-height: 200px;
+    resize: none;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 16px;
+    text-transform: none;
+    color: #fff;
+    padding: 0 10px;
+}
+
+/* ==========================================================================
+What We Offer
+========================================================================== */
+.what-we-offer{
+    min-height: 600px;
+    background-image: url(../images/Home/what-we-offer-parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.what-we-offer p{
+    padding-top: 10px;
+}
+
+.what-we-offer hr{
+    border-color: #ffcc00;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.what-we-offer ul{
+    padding: 0;
+    max-width: 25%;
+    flex: 1;
+    text-align: left;
+}
+
+.what-we-offer li{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    background: url('../images/Home/check-mark-icon.png') no-repeat top left;
+    margin: 20px 0;
+    padding: 4px 0 4px 40px;
+    list-style: none;
+}
+
+.offers{
+    display: flex;
+}
+
+/* ==========================================================================
+Jobs Just In
+========================================================================== */
+.jobs-just-in{
+    min-height: 875px;
+}
+
+.jobs-just-in span p{
+    padding-right: 20px;
+}
+
+.jobs-container{
+    width: 90%;
+    margin-top: 50px;
+}
+
+.job-slide{
+    padding: 20px;
+    border: 2px solid #403f3f;
+    width: 25vw; /* 20% of the viewport width */
+    height: 20vw;
+    border-bottom: 20px solid #174a81;
+    position: relative;
+    margin: 0 10px;
+}
+
+.date-marker{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    background-color: #ffcc00;
+    padding: 20px;
+    text-transform: uppercase;
+   font-weight: bold;
+}
+
+/* ==========================================================================
+Job Seeker
+========================================================================== */
+.job-seeker{
+    min-height: 738px;
+    background-image: url(../images/Home/job-seeker-div.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+
+.job-seeker-container{
+    width: 30%;
+    min-height: inherit;
+    float: left;
+    margin-left: 7%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.job-seeker p{
+    margin: 15px 0 40px 0;
+}
+
+/* ==========================================================================
+Employer
+========================================================================== */
+.employer{
+    min-height: 738px;
+    background-image: url(../images/Home/employer-div.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 3px 3px rgba(0,0,0,0.3);   
+}
+
+.employer-container{
+    width: 30%;
+    min-height: inherit;
+    float: right;
+    margin-right: 7%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.employer p{
+    margin: 15px 0 40px 0;
+}
+
+/* ==========================================================================
+Our People
+========================================================================== */
+.our-people{
+    min-height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Our People Text Slider */
+#carousel {
+    position: relative;
+    margin-top: 20px;
+}
+
+#slides {
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+}
+
+#slides ul {
+    list-style: none;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+ #slides li {
+    width:100%;
+    float:left;
+    position: relative;
+}
+
+#quote-author{
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#arrow-button a{
+    font-size: 5em;
+    color: #403f3f;
+}
+
+/* ==========================================================================
+Having Trouble
+========================================================================== */
+.having-trouble{
+    height: 250px;
+    background-image: url(../images/Home/having-trouble-parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0 3px 3px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.having-touble h2{
+    color: #fff;
+}
+
+.having-trouble a{
+    margin-left: 100px;
+}
+
+/* ==========================================================================
+Contact Map
+========================================================================== */
+
+.contact-map{
+    height: 600px;
+}
+
+.map{
+    position: relative;
+    margin-bottom: -50px;
+}
+
+.map2{
+    margin-top: -150px;
+    margin-bottom: -5px;
+}
+
+.arrow-up {
+    position: relative;
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;  
+    border-bottom: 50px solid #fff;
+}
+
+/* ==========================================================================
+Contact Info
+========================================================================== */
+
+.contact-info{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info .container{
+    display: flex;
+    margin: auto;
+}
+
+.contact-info .container div{
+    display: inline-block;
+    flex: 1;
+    margin-top: 50px;
+}
+
+.contact-info-amps img{
+    width: 50%;
+    padding-bottom: 15px;
+    margin-top: -50px;
+}
+
+.contact-info ul{
+    list-style: none;
+    padding: 0 0 15px 0;
+    text-align: left;
+}
+
+.contact-info-amps li{
+    padding-bottom: 10px;
+}
+
+.contact-info-job-seekers li, .contact-info-employers li, .contact-info-socialfeed li{
+    padding-bottom: 15px;
+}
+
+.contact-info-socialfeed img{
+    float: left;
+    padding: 0 20px 30px 0;
+}
+
+.contact-info-socialfeed p{
+    line-height: normal;
+}
+
+
+/* ==========================================================================
+Contact Page
+========================================================================== */
+.contact-container{
+    width: 70%;
+    min-height: inherit;
+    margin-top: -60px;
+}
+
+.info-col-container{
+    margin-top: 20px;
+    display: flex;
+}
+.info-col{
+    flex: 1;
+    width: 50%;
+}
+
+.contact-hr{
+    margin: 20px 0;
+}
+
+.info-col h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.info-col li{
+    margin-bottom: 5px;
+}
+
+/* ==========================================================================
+About Page
+========================================================================== */
+.about-hero{
+    background-image: url(../images/About-Us/about-mh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.about-us{
+    height: 700px;
+}
+
+.about-us h2, .about-us h3{
+    margin-bottom: 15px;
+}
+
+.about-us img{
+    max-width: 75%;
+    margin-left: 75px;
+}
+
+/* ==========================================================================
+Advantage / Consultation
+========================================================================== */
+.jobs-help{
+    min-height: 600px;
+}
+
+.jobs-help hr{
+    width: 50%;
+}
+
+.job-search{
+    background-image: url(../images/About-Us/job-search.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 50%;
+    min-height: inherit;
+    color: #fff;
+}
+
+.job-container{
+    width: 50%;
+    min-height: inherit;
+    text-align: center;
+}
+
+.advantage-container p{
+    margin: 20px 0;
+}
+
+#btn-spacer{
+    margin-bottom: 40px;
+}
+
+.about-having-trouble{
+    display: inline-block;
+    background-image: url(../images/About-Us/need-help.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    min-height: inherit;
+}
+
+.trouble-container{
+    width: 50%;
+    min-height: inherit;
+    color: #fff;
+    text-align: center;
+}
+
+.form-full{
+    width: 100%;
+}
+.form-half{
+    width: 47.5%;
+}
+
+input, textarea{
+    padding: 10px 0;
+    margin: 10px 0;
+    border: solid 1px #fff;
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+textarea{
+    min-height: 200px;
+    resize: none;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 16px;
+    text-transform: none;
+    color: #fff;
+    padding: 0 10px;
+}
+
+
+/* ==========================================================================
+Footer
+========================================================================== */
+footer{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+}
